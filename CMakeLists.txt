@@ -112,6 +112,10 @@ else()
   install(FILES examples/uncalibrated_parameters.ini
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/examples
     )
+    
+  install(DIRECTORY launch config
+    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+    )
 
   # Interim compatibility
   # Remove this in the next release
