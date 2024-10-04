@@ -2,7 +2,7 @@
 
   <node name="gscam" pkg="gscam" type="gscam" output="screen">
     <param name="camera_info_url" value="file:///home/raza/hires_intrinsics/2k/ost.yaml" />
-    <param name="gscam_config" value="rtspsrc location=rtsp://100.75.14.91:8900/live latency=50 ! rtpjitterbuffer ! rtph264depay ! h264parse ! avdec_h264 ! queue max-size-buffers=0 leaky=downstream ! videoconvert" />
+    <param name="gscam_config" value="rtspsrc location=rtsp://100.120.78.104:8900/live latency=50 ! rtpjitterbuffer ! rtph264depay ! h264parse ! avdec_h264 ! queue max-size-buffers=0 leaky=downstream ! videoconvert" />
     <param name="frame_id" value="hires" />
     <param name="camera_name" value="hires" />
     <param name="sync_sink" value="true"/>

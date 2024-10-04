@@ -1,0 +1,26 @@
+image_width: 1024
+image_height: 768
+camera_name: hires
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [732.58693,   0.     , 463.13275,
+           0.     , 733.81053, 380.48999,
+           0.     ,   0.     ,   1.     ]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.101680, -0.161129, 0.001896, -0.004726, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [736.74695,   0.     , 454.70363,   0.     ,
+           0.     , 746.4754 , 381.19023,   0.     ,
+           0.     ,   0.     ,   1.     ,   0.     ]
