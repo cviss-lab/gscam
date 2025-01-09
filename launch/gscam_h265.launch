@@ -5,7 +5,7 @@
   <node name="gscam" pkg="gscam" type="gscam" output="screen">
     <param name="camera_info_url" value="file:///home/raza/catkin_ws/src/gscam/config/starling_hires_intrinsics.yaml" />
     <!-- <param name="gscam_config" value="rtspsrc location=rtsp://100.75.14.91:8900/live latency=70 do-timestamp=true ! rtph265depay ! h265parse ! avdec_h265 ! queue max-size-buffers=0 leaky=downstream ! videoconvert sync=false"/> -->
-    <param name="gscam_config" value="rtspsrc location=rtsp://100.86.134.48:8900/live latency=70 do-timestamp=true ! rtph265depay ! h265parse ! avdec_h265 ! queue max-size-buffers=0 leaky=downstream ! videoconvert"/>
+    <param name="gscam_config" value="rtspsrc location=rtsp://192.168.0.3/live latency=70 do-timestamp=true ! rtph265depay ! h265parse ! avdec_h265 ! queue max-size-buffers=0 leaky=downstream ! videoconvert"/>
     <!-- <param name="gscam_config" value="rtspsrc location=rtsp://100.75.14.91:8900/live latency=50 ! rtph265depay ! h265parse ! avdec_h265 ! videoconvert"/> -->
     <param name="frame_id" value="hires" />
     <param name="camera_name" value="hires" />
